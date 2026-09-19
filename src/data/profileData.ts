@@ -1,0 +1,208 @@
+import { ProfileData } from '../types';
+
+export const profileData: ProfileData = {
+  name: 'Chaitra Shetty',
+  headline: 'Specialist Cloud Consultant at Teradata',
+  subHeadline: 'Multi-Cloud Solutions Architect (AWS | Azure | GCP) & Enterprise Database Specialist',
+  location: 'Bengaluru, Karnataka, India',
+  email: 'chaitrashetty35@gmail.com',
+  linkedin: 'linkedin.com/in/chaitrashetty972020',
+  linkedinUrl: 'https://www.linkedin.com/in/chaitra-shetty972020',
+  yearsOfExperience: '18+ Years',
+  summary:
+    'Accomplished Specialist Cloud Consultant & Database Engineer with over 18 years of global IT infrastructure experience. Deeply versed in the ITIL framework and multi-cloud operations across AWS, Microsoft Azure, and Google Cloud Platform (GCP). Proven track record managing mission-critical enterprise databases (Teradata and MSSQL), spearheading transition projects, automating complex change operations, and steering cross-functional engineering teams across France, the UK, and India.',
+  
+  stats: [
+    {
+      label: '18+ Years',
+      value: '18+',
+      sublabel: 'Enterprise IT & Cloud Engineering',
+    },
+    {
+      label: '3 Cloud Ecosystems',
+      value: 'AWS • Azure • GCP',
+      sublabel: 'Public Cloud Architecture & Operations',
+    },
+    {
+      label: '5 Professional Certs',
+      value: '5',
+      sublabel: 'AWS, Azure, Teradata, CSM, Prince2',
+    },
+    {
+      label: 'High Availability',
+      value: '99.99%',
+      sublabel: 'Disaster Recovery & Clustering Uptime',
+    },
+  ],
+
+  skillsCategories: [
+    {
+      title: 'Cloud Platforms & Infrastructure',
+      description: 'End-to-end cloud change operations, VM lifecycle, Kubernetes clusters, and public cloud provisioning.',
+      skills: [
+        { name: 'Amazon Web Services (AWS)', level: 'Certified Solutions Architect', highlight: true },
+        { name: 'Microsoft Azure', level: 'Certified Professional', highlight: true },
+        { name: 'Google Cloud Platform (GCP)', level: 'Advanced Operations', highlight: true },
+        { name: 'Kubernetes (Vantage Analyst)', level: 'Cluster Maintenance & Support', highlight: true },
+        { name: 'VM Lifecycle Management', level: 'Disk Provisioning, Resizing & Storage' },
+        { name: 'IAM & Cloud Security Policies', level: 'Enterprise Governance' },
+        { name: 'KPI & Infrastructure Monitoring', level: 'Operational Excellence' },
+      ],
+    },
+    {
+      title: 'Enterprise Databases & Performance',
+      description: 'Extensive database administration, high-availability clustering, disaster recovery, and query optimization.',
+      skills: [
+        { name: 'Teradata Enterprise DBA', level: 'Certified Professional', highlight: true },
+        { name: 'Microsoft SQL Server (2000/05/08)', level: 'Advanced Administration', highlight: true },
+        { name: 'Performance Tuning & Query Optimization', level: 'Index & Memory Profiling', highlight: true },
+        { name: 'Active/Active & Active/Passive Clustering', level: 'High Availability Architect' },
+        { name: 'BAR & DSA (Data Stream Architecture)', level: 'Disaster Recovery & Restores' },
+        { name: 'Log Shipping, Mirroring & Replication', level: 'Failover Architecture' },
+        { name: 'DTS Packages & ETL Data Migration', level: 'Cross-Server Data Pipeline' },
+        { name: 'SQL Profiler, PerfMon & DBCC', level: 'Deep Diagnostic Tooling' },
+      ],
+    },
+    {
+      title: 'Governance, Leadership & Service Delivery',
+      description: 'ITIL-aligned transition management, cross-functional leadership, L3 escalations, and project execution.',
+      skills: [
+        { name: 'Cross-functional Team Leadership', level: 'Global Multi-Team Coordination', highlight: true },
+        { name: 'ITIL Framework & Change Management', level: 'Maintenance Windows & Governance', highlight: true },
+        { name: 'PRINCE2 Practitioner', level: 'Structured Project Delivery', highlight: true },
+        { name: 'Certified ScrumMaster (CSM)', level: 'Agile & Sprint Facilitation', highlight: true },
+        { name: 'L3 Customer Support (UK & France)', level: 'Enterprise Outage & Client Facing' },
+        { name: 'Escalation & Critical Incident Management', level: 'Rapid Triage & Resolution' },
+        { name: 'Technical Documentation & Standards', level: 'Capacity Planning & Runbooks' },
+        { name: 'Common Regression Testing (CRT)', level: 'Post-Deployment Validation' },
+      ],
+    },
+  ],
+
+  certifications: [
+    {
+      id: 'aws-csa',
+      title: 'AWS Certified Solutions Architect – Associate',
+      issuer: 'Amazon Web Services',
+      category: 'cloud',
+      badgeColor: 'from-amber-500 to-orange-600',
+      iconName: 'Cloud',
+    },
+    {
+      id: 'azure-cert',
+      title: 'Microsoft Azure Certified',
+      issuer: 'Microsoft',
+      category: 'cloud',
+      badgeColor: 'from-blue-600 to-cyan-600',
+      iconName: 'CloudRain',
+    },
+    {
+      id: 'teradata-cp',
+      title: 'Teradata Certified Professional',
+      issuer: 'Teradata',
+      category: 'database',
+      badgeColor: 'from-orange-500 to-red-600',
+      iconName: 'Database',
+    },
+    {
+      id: 'csm',
+      title: 'Certified ScrumMaster (CSM)',
+      issuer: 'Scrum Alliance',
+      category: 'agile',
+      badgeColor: 'from-emerald-500 to-teal-700',
+      iconName: 'Sparkles',
+    },
+    {
+      id: 'prince2',
+      title: 'PRINCE2 Practitioner Certified',
+      issuer: 'AXELOS / PeopleCert',
+      category: 'governance',
+      badgeColor: 'from-indigo-600 to-violet-700',
+      iconName: 'ShieldCheck',
+    },
+  ],
+
+  experiences: [
+    {
+      id: 'teradata-cloud',
+      company: 'Teradata',
+      role: 'Senior Cloud Operations Specialist',
+      period: 'February 2015 – Present',
+      duration: '11+ years',
+      location: 'Bengaluru, Karnataka, India',
+      highlightSummary:
+        'Leading end-to-end cloud change operations and enterprise infrastructure administration across AWS, Azure, and GCP public clouds with zero service disruptions.',
+      responsibilities: [
+        'Managed end-to-end cloud change operations, ensuring seamless execution of infrastructure changes while minimizing service disruption.',
+        'Administered and maintained cloud infrastructure, including hardware and software components required to support cloud-based services.',
+        'Managed identity and access policies (IAM), storage provisioning, system capacity expansion, and KPI monitoring to ensure operational excellence.',
+        'Coordinated with cross-functional teams to plan and execute critical infrastructure activities, maintenance windows, and production deployments.',
+        'Performed installation and maintenance of Vantage Analyst on Kubernetes clusters, including troubleshooting and operational support.',
+        'Managed virtual machine lifecycle activities such as disk provisioning, storage expansion, and resizing across public cloud platforms (AWS, Azure, GCP).',
+        'Ensured high availability, operational stability, and strict adherence to change management and governance processes.',
+      ],
+      technologies: ['AWS', 'Microsoft Azure', 'GCP', 'Kubernetes', 'Vantage Analyst', 'IAM', 'VM Provisioning', 'ITIL Change Ops', 'KPI Monitoring'],
+    },
+    {
+      id: 'teradata-dba',
+      company: 'Teradata',
+      role: 'Teradata Database Administrator (DBA)',
+      period: 'February 2015 – Transition Period',
+      duration: 'Concurrent with Operations',
+      location: 'Bengaluru, Karnataka, India',
+      highlightSummary:
+        'Administered mission-critical Teradata database environments covering space allocation, user access control, performance optimization, and disaster recovery.',
+      responsibilities: [
+        'Administered Teradata database environments with responsibilities spanning database operations, maintenance, and performance optimization.',
+        'Managed database space allocation, user access control, and stringent database security policies.',
+        'Performed performance tuning and query optimization to dramatically improve system efficiency and responsiveness.',
+        'Executed application and database deployments while supporting production releases and change implementation.',
+        'Supported Common Regression Testing (CRT) to validate application functionality and data integrity after deployments.',
+        'Performed data copy, backup, archive, restore (BAR), and Data Stream Architecture (DSA) restore activities to ensure data integrity and disaster recovery readiness.',
+        'Collaborated closely with development, QA, and infrastructure teams to resolve production issues and maintain continuous service availability.',
+      ],
+      technologies: ['Teradata DBA', 'Query Optimization', 'Performance Tuning', 'BAR (Backup/Archive/Restore)', 'DSA', 'CRT Testing', 'Security & Access'],
+    },
+    {
+      id: 'atos-dba',
+      company: 'Atos',
+      role: 'SQL Database Administrator',
+      period: 'September 2008 – February 2015',
+      duration: '6 years 6 months',
+      location: 'Mumbai, Maharashtra, India',
+      highlightSummary:
+        'Extensive 6.5-year tenure administering enterprise Microsoft SQL Server systems, architecting high-availability clusters, and delivering L3 support for France and UK customers.',
+      responsibilities: [
+        'Extensive experience in installation, configuration, and administration of SQL Server 2000, 2005, and 2008 environments.',
+        'Implemented and maintained high availability solutions: Log Shipping, Mirroring, Replication, and Active/Active / Active/Passive Clustering.',
+        'Designed and scheduled automated database maintenance jobs, maintenance plans, and disaster recovery procedures.',
+        'Created and maintained databases and database objects including complex tables, table structures, and indexing strategies.',
+        'Built and managed data transformation workflows using DTS packages and ETL pipelines.',
+        'Extensively leveraged diagnostic tools like SQL Profiler, Index Tuning Wizard, DBCC commands, and Windows Performance Monitor for deep performance tuning.',
+        'Managed database authentication modes, user creation, granular permission schemes, and role assignments.',
+        'Performed database level operations: attach/detach, data file extension, database shrinking, and memory parameter configuration.',
+        'Utilized enterprise backup utilities including NetBackup, establishing capacity planning documentation and standardized runbooks.',
+        'Generated automated reports on backup integrity, server performance, transaction log file utilization, and disk space growth.',
+        'Functioned as dedicated L3 escalation resource for France and UK enterprise customers, handling critical outages and client calls.',
+      ],
+      technologies: [
+        'MS SQL Server 2000/2005/2008',
+        'Active/Active Clustering',
+        'Log Shipping & Mirroring',
+        'Replication',
+        'SQL Profiler & DBCC',
+        'DTS Packages',
+        'NetBackup',
+        'L3 Customer Support (UK/FR)',
+        'Disaster Recovery',
+      ],
+    },
+  ],
+
+  education: {
+    institution: 'University of Mumbai',
+    degree: "Bachelor's degree",
+    field: 'Business / Commerce, General',
+    location: 'Mumbai, India',
+  },
+};
